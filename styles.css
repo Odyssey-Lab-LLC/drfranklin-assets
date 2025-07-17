@@ -1,0 +1,85 @@
+/* Light */
+@font-face {
+    font-family: 'SK Modernist';
+  src: url('https://cdn.jsdelivr.net/gh/Odyssey-Lab-LLC/drfranklin-assets@main/sk-modernist-light-webfont.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/Odyssey-Lab-LLC/drfranklin-assets@main/sk-modernist-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Regular */
+@font-face {
+    font-family: 'SK Modernist';
+  src: url('https://cdn.jsdelivr.net/gh/Odyssey-Lab-LLC/drfranklin-assets@main/sk-modernist-regular-webfont.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/Odyssey-Lab-LLC/drfranklin-assets@main/sk-modernist-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Mono */
+@font-face {
+    font-family: 'SK Modernist Mono';
+  src: url('https://cdn.jsdelivr.net/gh/Odyssey-Lab-LLC/drfranklin-assets@main/sk-modernist-mono-webfont.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/Odyssey-Lab-LLC/drfranklin-assets@main/sk-modernist-mono-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'SK Modernist';
+  src: url('https://cdn.jsdelivr.net/gh/Odyssey-Lab-LLC/drfranklin-assets@main/sk-modernist-bold-webfont.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/Odyssey-Lab-LLC/drfranklin-assets@main/sk-modernist-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+    --headlinefont: 'SK Modernist', sans-serif !important;
+    --contentfont: 'SK Modernist', sans-serif !important;
+}
+
+/* Headings */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--headlinefont);
+    line-height: 1.1;
+}
+
+/* Paragraphs and body text */
+p, body, span, li, td {
+    font-family: var(--contentfont);
+}
+
+.grad-white-top-to-gray-bottom, .grad-gray-top-to-white-bottom {
+    background: #F5F5FD;
+}
+
+.grad-gray-top-to-white-bottom {
+    background: linear-gradient(180deg, rgba(245, 245, 253, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.grad-gray-2-top-to-white-bottom {
+    background: linear-gradient(180deg, #f1f1f1 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.grad-white-top-to-gray-bottom {
+    background: linear-gradient(0deg, rgba(245, 245, 253, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.grad-black-top-to-gray-bottom {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 75%, #000000 100%);
+}
+
+.grad-gray-top-to-black-bottom {
+    background: linear-gradient(0deg, #000000 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.border-right-strong {
+    border-right: 6px dotted #76111a !important;
+}
+
+.border-top-strong {
+    border-top: 6px dotted #76111a !important;
+}
